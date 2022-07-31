@@ -1,0 +1,90 @@
+body {
+    background-image: url("background.jpg");
+    background-size: 500px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.grid-container {
+    background-color: rgba(100, 100, 100, 0.7);
+    width: 400px;
+    display: grid;
+    row-gap: 10px;
+    grid-template-columns: auto auto;
+    margin: 50% auto;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 3%;
+    color: rgb(240, 240, 240);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 6px solid black;
+}
+
+.grid-item {
+    font-size: 26px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.no-edit {
+    color: rgba(50, 50, 50, .8);
+}
+
+.inputStyling {
+    height: 35px;
+    width: 140px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.inputNoEdit {
+    background-color: rgba(50, 50, 50, 0.5);
+    color: white;
+}
+
+.blankInput {
+  height: 35px;
+    width: 140px;
+}
+
+#btn {
+    height: 50px;
+    width: auto;
+    background-color: rgb(140, 30, 30);
+    color: white;
+    font-family: Lucida Console, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    border: 3px solid black;
+    border-radius: 5%;
+}
+#btn:hover {
+    background-color: #45a049;
+  }
+
+  @media screen and (max-width: 600px) {
+    .grid-container  {
+      width: 90%;
+      height: 350px;
+      margin-top: 20%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .grid-item, .inputStyling {
+      place-items: center;
+      height: 30px;
+      font-size: 26px;
+    }
+}
+
+    @media screen and (max-width: 600px) {
+        #btn {
+          width: 147px;
+          height: 40px;
+          margin-top: 10px;
+        }
+    }

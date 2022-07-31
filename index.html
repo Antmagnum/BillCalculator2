@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tip calculator</title>
+</head>
+
+<body>
+
+    <div class="grid-container">
+        <div class="grid-item"><span>Bill amount:</span></div>
+        <div class="grid-item no-style"><input id="billAmount" type="number" class="inputStyling" ></div>
+
+        <div class="grid-item"><span>People:</span></div>
+        <div class="grid-item no-style"><input id="peopleAmount" type="number" class="inputStyling"></div>
+
+        <div class="grid-item no-style no-edit"><span>Tip percentage:</span></div>
+        <div class="grid-item no-style"><input id="tipPercent" type="number" class="inputStyling inputNoEdit"></div>
+
+        <div class="grid-item no-style no-edit"><span>Tip amount:</span></div>
+        <div class="grid-item no-style"><input id="tipAmount" type="number" class="inputStyling inputNoEdit"></div>
+
+        <div class="grid-item"><span>Total:</span> </div>
+        <div class="grid-item no-style"><input id="totalBill" type="number" class="inputStyling"></div>
+        
+        <div class="grid-item no-style"></div>
+        <div class="grid-item no-style"> <button id="btn">Calculate</button></div>
+
+        <div class="grid-item no-style no-edit"><span>(optional)</span> </div>
+        <div class="grid-item no-style"><div type="number" class="blankInput"></div></div>
+
+        <div class="grid-item no-style no-edit"><span>Total Rounded:</span> </div>
+        <div class="grid-item no-style"><input id="totalBillRound" type="number" class="inputStyling inputNoEdit"></div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+
+
+</html>
