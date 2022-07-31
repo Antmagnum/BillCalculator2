@@ -131,3 +131,45 @@ input::-webkit-inner-spin-button {
         margin-top: -15px;
       }
   }
+
+/* ****************400px ****************** */
+  @media screen and (max-width: 400px) {
+    .grid-container  {
+      width: 80%;
+      height: 350px;
+      margin-top: 20%;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .grid-item, .inputStyling {
+      place-items: center;
+      height: 30px;
+      font-size: 16px;
+      width: 110px;
+    }
+}
+
+    @media screen and (max-width: 400px) {
+        #btn {
+          width: 117px;
+          height: 40px;
+          margin-top: 10px;
+          font-size: 18px;
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+      #blankInput, .blankInput {
+        width: 110px;
+        height: 20px;
+        margin-top: 25px;
+        font-size: 14px;
+        margin-bottom: -15px;
+      }
+  }
+
+  @media screen and (max-width: 400px) {
+    #totalBillRound {
+      margin-top: -15px;
+    }
+}
