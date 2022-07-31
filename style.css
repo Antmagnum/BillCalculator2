@@ -66,14 +66,15 @@ input::-webkit-inner-spin-button {
     background-color: #45a049;
   }
 
-  @media screen and (max-width: 600px) {
+  /* *****************Max WIDTH 700px****************** */
+  @media screen and (max-width: 700px) {
     .grid-container  {
       width: 90%;
       height: 350px;
       margin-top: 20%;
     }
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
     .grid-item, .inputStyling {
       place-items: center;
       height: 30px;
@@ -81,10 +82,36 @@ input::-webkit-inner-spin-button {
     }
 }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 700px) {
         #btn {
           width: 147px;
           height: 40px;
           margin-top: 10px;
         }
     }
+
+    /* *****************Max WIDTH 500px****************** */
+    @media screen and (max-width: 500px) {
+      .grid-container  {
+        width: 70%;
+        height: 350px;
+        margin-top: 20%;
+      }
+    }
+    @media screen and (max-width: 500px) {
+      .grid-item, .inputStyling {
+        place-items: center;
+        height: 30px;
+        font-size: 16px;
+        width: 140px;
+      }
+  }
+  
+      @media screen and (max-width: 500px) {
+          #btn {
+            width: 147px;
+            height: 40px;
+            margin-top: 10px;
+            font-size: 18px;
+          }
+      }
